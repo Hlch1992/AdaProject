@@ -1,0 +1,70 @@
+V "GNAT Lib v5"
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_RECURSION
+RV NO_SELECT_STATEMENTS
+RV NO_TASKING
+RV SPARK_05
+RV MAX_SELECT_ALTERNATIVES=2
+RV MAX_TASK_ENTRIES=2
+
+U adaptivequad%b	adaptivequad.adb	559dc806 NE OO PK GE
+
+U adaptivequad%s	adaptivequad.ads	57f7494c BN EE NE OO PK GE
+
+D adaptivequad.ads	20161004022723 57f7494c adaptivequad%s
+D adaptivequad.adb	20161005232617 026a814a adaptivequad%b
+D system.ads		20141031112219 0f63a871 system%s
+X 1 adaptivequad.ads
+2V19 F{float} 2>22 2|8s20 8s29 8s34
+2f22 x{float}
+3k9*AdaptiveQuad 2z19 5l5 5e17 2|2b14 77l5 77t17
+4V14*AQuad{float} 4>21 4>23 4>25 2|71b14 74l9 74t14
+4f21 a{float} 2|71b21 73r25 73r46
+4f23 b{float} 2|71b23 73r27 73r48
+4f25 eps{float} 2|71b25 73r29
+X 2 adaptivequad.adb
+4V14 SimpsonsRule{float} 4b14 4>28 4>30 9l9 9t21 27s50 45s50 61s15 62s16
+. 73s33
+4f28 a{float} 5r19 6r25 8r22
+4f30 b{float} 5r21 6r23 8r36
+5f9 c{float} 8r31
+6f9 h3{float} 8r16
+11V14 RecAQuad{float} 11b14 11>24 11>26 11>28 11>32 27s29 45s29 69l9 69t17
+. 73s16
+11f24 a{float} 60r13 61r28 64r17
+11f26 b{float} 60r15 62r31 64r19
+11f28 eps{float} 63r41 64r23
+11f32 whole{float} 63r27 67r43
+12f9 c{float} 60m9 61r30 62r29 64r21
+12f11 left{float} 61m9 63r16 67r20 67r32
+12f16 right{float} 62m9 63r21 67r25 67r37
+12f22 Res{float} 64m27 65r20
+13U19 Rec 13b19 13>23 13>25 13>27 13>29 13<40 58l13 58t16 64s13
+13f23 a{float} 27r38 27r63
+13f25 b{float} 45r40 45r65
+13f27 c{float} 27r40 27r65 45r38 45r63
+13f29 eps{float} 27r42 45r42
+13f40 Res{float} 57m13
+14t18 Tleft 18b23 30l17 30t22 52r17
+15Y23 push 15>28 22b28 24l25 24t29
+15f28 x{float} 23r28
+16Y23 pop 16<27 26b28 28l25 28t28 52s23
+16f27 t1{float} 27m25
+19f17 t1{float} 23m24
+22f34 x{float}
+26f32 t1{float}
+32t18 Tright 36b23 48l17 48t23 53r17
+33Y23 push 33>28 40b28 42l25 42t29
+33f28 x{float} 41r29
+34Y23 pop 34<27 44b28 46l25 46t28 53s24
+34f27 t2{float} 45m25
+37f17 t2{float} 41m25
+40f34 x{float}
+44f32 t2{float}
+49V22 pop{float} 49b22 55l17 55t20 57s18
+50f17 t1{float} 52m27 54r24
+50f20 t2{float} 53m28 54r27
+

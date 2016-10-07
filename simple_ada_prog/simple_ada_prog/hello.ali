@@ -1,0 +1,73 @@
+V "GNAT Lib v5"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV NO_IMPLICIT_DYNAMIC_CODE
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+RV MAX_TASKS=1+
+
+U hello%b		hello.adb		0cc57e2c NE OO SU IL
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20070406091342 3ffc8e18 ada%s
+D a-except.ads		20140730140058 5250cb69 ada.exceptions%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20141120112812 02069903 ada.real_time%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-tags.ads		20140730140058 dc4d0634 ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-unccon.ads		20070406091342 f9eb8f06 ada.unchecked_conversion%s
+D hello.adb		20160921201316 491358e5 hello%b
+D interfac.ads		20141120112812 6033a23f interfaces%s
+D i-c.ads		20110801143639 5421119b interfaces.c%s
+D i-cstrin.ads		20140611122922 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D system.ads		20141031112219 0f63a871 system%s
+D s-atacco.ads		20120515093410 4c36d12f system.address_to_access_conversions%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-multip.ads		20101011073009 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20150107102251 2e5b26a9 system.os_interface%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-soflin.ads		20140801100131 aa763b52 system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stausa.ads		20110804134155 017a0a05 system.stack_usage%s
+D s-stalib.ads		20150220094550 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20140613095942 601f6b72 system.task_info%s
+D s-taspri.ads		20141120144719 6c1d93d4 system.task_primitives%s
+D s-taprop.ads		20140521131406 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20150106085750 339749f0 system.tasking%s
+D s-tassta.ads		20121029110946 70812003 system.tasking.stages%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20140731130224 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+D s-win32.ads		20140120152906 b7f96285 system.win32%s
+D text_io.ads		20070406091342 45d626c9 text_io%s
+X 7 a-textio.ads
+166U14*New_Line 9|12s7 16s23
+242U14*Put 9|11s7 16s3
+X 9 hello.adb
+4U11*hello 4b11 17l5 17t10
+6t9 Foo 8b14 13l8 13t11
+X 24 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 36 text_io.ads
+24K9*Text_IO=24:29 9|1w6 2r5
+

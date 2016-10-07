@@ -1,0 +1,148 @@
+V "GNAT Lib v5"
+M P W=b
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_DYNAMIC_CODE
+RV NO_RECURSION
+RV NO_SELECT_STATEMENTS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+RV MAX_SELECT_ALTERNATIVES=2
+RV MAX_TASK_ENTRIES=2
+RV MAX_TASKS=1+
+
+U aqmain%b		AQMain.adb		ec8d703e NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+Z ada.numerics.aux%s	a-numaux.adb		a-numaux.ali
+W ada.numerics.generic_elementary_functions%s
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W adaptivequad%s	adaptivequad.adb	adaptivequad.ali
+W system%s		system.ads		system.ali
+W system.exn_llf%s	s-exnllf.adb		s-exnllf.ali
+W system.fat_flt%s	s-fatflt.ads		s-fatflt.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20070406091342 3ffc8e18 ada%s
+D a-except.ads		20140730140058 5250cb69 ada.exceptions%s
+D a-finali.ads		20140611123707 69f99942 ada.finalization%s
+D a-flteio.ads		20070406091342 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20080324174807 bb51c45a ada.numerics%s
+D a-numaux.ads		20140801094828 243fe0b7 ada.numerics.aux%s
+D a-ngelfu.ads		20140731125134 b8fdcb46 ada.numerics.generic_elementary_functions%s
+D a-ngelfu.adb		20140731100908 5e96a931 ada.numerics.generic_elementary_functions%b
+D a-reatim.ads		20141120112812 02069903 ada.real_time%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-tags.ads		20140730140058 dc4d0634 ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-tiflio.ads		20140717063513 56fbda09 ada.text_io.float_io%s
+D a-unccon.ads		20070406091342 f9eb8f06 ada.unchecked_conversion%s
+D adaptivequad.ads	20161004022723 57f7494c adaptivequad%s
+D adaptivequad.adb	20161005232617 026a814a adaptivequad%b
+D AQMain.adb		20161004124156 a7db935d aqmain%b
+D interfac.ads		20141120112812 6033a23f interfaces%s
+D i-c.ads		20110801143639 5421119b interfaces.c%s
+D i-cstrin.ads		20140611122922 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D system.ads		20141031112219 0f63a871 system%s
+D s-atacco.ads		20120515093410 4c36d12f system.address_to_access_conversions%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-exnllf.ads		20121004090553 81841eef system.exn_llf%s
+D s-fatflt.ads		20090409150019 11beb392 system.fat_flt%s
+D s-fatgen.ads		20150107111315 49cbaf86 system.fat_gen%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-finroo.ads		20120426095924 4ff27390 system.finalization_root%s
+D s-multip.ads		20101011073009 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20150107102251 2e5b26a9 system.os_interface%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-soflin.ads		20140801100131 aa763b52 system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stausa.ads		20110804134155 017a0a05 system.stack_usage%s
+D s-stalib.ads		20150220094550 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20140613095942 601f6b72 system.task_info%s
+D s-taspri.ads		20141120144719 6c1d93d4 system.task_primitives%s
+D s-taprop.ads		20140521131406 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20150106085750 339749f0 system.tasking%s
+D s-taprob.ads		20110927094500 502249e3 system.tasking.protected_objects%s
+D s-tpoben.ads		20121029113218 b641f948 system.tasking.protected_objects.entries%s
+D s-tasren.ads		20120208100446 a67a9949 system.tasking.rendezvous%s
+D s-tassta.ads		20121029110946 70812003 system.tasking.stages%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20140731130224 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+D s-win32.ads		20140120152906 b7f96285 system.win32%s
+D text_io.ads		20070406091342 45d626c9 text_io%s
+X 1 ada.ads
+16K9*Ada 19e8 18|3r6 4r5 5r6 11r35
+X 4 a-flteio.ads
+20K13*Float_Text_IO[14|46] 18|3w10 4r9
+X 6 a-numeri.ads
+16K13*Numerics 32e17 18|5r10 11r39
+X 8 a-ngelfu.ads
+39k22*Generic_Elementary_Functions 171e46 18|5w19 11r48
+81V13 Sin{float} 18|16s16[11]
+X 13 a-textio.ads
+166U14*New_Line 18|73s31
+242U14*Put 18|35s13 37s13 68s21 70s21 72s21
+X 14 a-tiflio.ads
+57U14*Get 18|36s13[4|20] 38s13[4|20]
+68U14*Put 18|69s21[4|20] 71s21[4|20] 73s21[4|20]
+X 16 adaptivequad.ads
+3k9*AdaptiveQuad 5e17 18|6w6 19r25
+4V14 AQuad{float} 18|51s32[19]
+X 18 AQMain.adb
+8U11*AQMain 8b11 83l5 83t11
+9f5 eps{float} 51r42
+11K13 FloatFunctions[8|39] 12r9
+14V14 MyF{float} 14b14 14>19 17l9 17t12 19r39
+14f19 x{float} 16r20 16r22
+19K13 MyAQ[16|3] 51r27
+21t10 ReadPairs 31b15 42l9 42t18
+22t10 ComputeArea 39r13 41r9 44b15 60l9 60t20
+23Y15 Start 23>21 23>23 39s25 50b24 53l21 53t26
+23f21 a{float} 51r38 52r39
+23f23 b{float} 51r40 52r41
+24Y15 Done 41s21 55b24
+26t10 PrintResult 52r21 59r9 62b15 80l9 80t20
+27Y15 Start 27>22 27>24 27>26 52s33 67b24 74l21 74t26
+27f22 a{float} 69r25
+27f24 b{float} 71r25
+27f26 Res{float} 73r25
+28Y15 Done 59s21 76b24
+32f9 a{float} 36m17 39r31
+32f11 b{float} 38m17 39r33
+34i13 I{integer}
+45f9 Res{float} 51m21 52r43
+46b9 Finished{boolean} 48r23 56m17
+50f31 a{float}
+50f33 b{float}
+63b9 Finished{boolean} 65r23 77m17
+67f31 a{float}
+67f33 b{float}
+67f35 Res{float}
+X 37 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 52 text_io.ads
+24K9*Text_IO=24:29 18|1w6 2r5
+
